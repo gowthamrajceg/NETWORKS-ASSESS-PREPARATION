@@ -4,7 +4,7 @@ import java.util.*;
 class date1
 {
 public static void main(String args[]) throws IOException
-{
+{System.out.println("client");
 Socket s=new Socket("127.0.0.1",5207);
 BufferedReader in=new BufferedReader(new InputStreamReader(s.getInputStream()));
 System.out.println(in.readLine());
